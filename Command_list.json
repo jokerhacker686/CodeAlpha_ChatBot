@@ -1,0 +1,8 @@
+{
+    "date" : "DATE",
+    "time" : "TIME",
+    "clear" : "clear",
+    "history" : "self.History",
+    "add" : "self.get",
+    "help" : "self.Command_All_List"
+}
