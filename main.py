@@ -25,8 +25,6 @@ def jokes():
 
 
 
-
-
 class Command:
 
     # All Data store here
@@ -42,7 +40,6 @@ class Command:
             "add" : self.Add,
             "help" : self.Show_Command_All,
             "exit" : "exit"
-
         }
 
         # store Command History 
@@ -97,5 +94,4 @@ if __name__ == "__main__":
             Output = Co.Call(Input_Call) 
             print(f"ChatBot :- {Output}") 
         
-    
-        
+          
